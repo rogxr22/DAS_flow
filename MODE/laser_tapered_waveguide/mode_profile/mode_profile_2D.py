@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #----------------------------------------------------------------------------
-# @author: Georgios Gcharalampous (gcharalampous)
-# version ='1.0'
-# ---------------------------------------------------------------------------
+
 """
 User-inputs are Not required.
 

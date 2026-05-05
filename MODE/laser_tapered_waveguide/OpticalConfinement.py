@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 14 09:41:30 2023
-
-@author: Georgios
-"""
-
 import lumapi
 import numpy as np
 from scipy import integrate

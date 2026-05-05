@@ -173,11 +173,18 @@ README_TEMPLATE.md
 # CUSTOM SECTION FOR SIMULATIONS AND DESIGN - VERSION 1.0
 # =================================================
 
-# --- Lumerical / FDTD Files (Large binaries) ---
+
+# --- Lumerical / FDTD Files ---
+# First, ignore every .fsp file anywhere
 *.fsp
 *.fsp.bak
+
+# BUT, do not ignore .fsp files inside directories named 'lumerical_files'
+!**/lumerical_files/*.fsp
+
 *.ldf
 *.lsf.log
+
 
 # --- Plots and Visualization (Keep the repo clean) ---
 *.png

@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #----------------------------------------------------------------------------
-# @author: Georgios Gcharalampous (gcharalampous)
-# version ='1.0'
-# ---------------------------------------------------------------------------
 """
 Calculates the coupling length for the transmission and bar ports
 of the directional coupler.
