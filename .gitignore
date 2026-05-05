@@ -168,3 +168,29 @@ Results/
 
 ### Template files
 README_TEMPLATE.md
+
+# =================================================   
+# CUSTOM SECTION FOR SIMULATIONS AND DESIGN - VERSION 1.0
+# =================================================
+
+# --- Lumerical / FDTD Files (Large binaries) ---
+*.fsp
+*.fsp.bak
+*.ldf
+*.lsf.log
+
+# --- Plots and Visualization (Keep the repo clean) ---
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# --- Output and Data Directories ---
+[Rr]esults/
+[Oo]utput/
+[Ff]igures/
+
+# --- Simulation Data & Others ---
+*.mat
+*.data
