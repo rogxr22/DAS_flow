@@ -1,12 +1,7 @@
 # Welcome
 
 ```
-.
-├── DEVICE
-│   ├── disk_modulator
-│   ├── electro_optic
-│   ├── pin_modulator
-│   └── README.md
+
 ├── FDTD
 │   ├── adiabatic_directional_coupler
 │   ├── adiabatic_y_branch

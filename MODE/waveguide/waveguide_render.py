@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #----------------------------------------------------------------------------
-# @author: Georgios Gcharalampous (gcharalampous)
-# version ='1.0'
-# ---------------------------------------------------------------------------
 """
 No user-inputs are required.
 
@@ -258,7 +255,7 @@ def waveguide_draw(mode):
 
 
 if(__name__=="__main__"):
-    with lumapi.MODE(hide=True) as mode:
+    with lumapi.MODE(hide=False) as mode:
     
       # Disable Rendering
       mode.redrawoff()
@@ -270,4 +267,8 @@ if(__name__=="__main__"):
       mode.redrawon()        
 
       mode.save(MODE_WAVEGUIDE_DIRECTORY_WRITE_FILE + "\\waveguide_modes.lms")
-      
+
+      # 3. TRUCO FINAL: Pausamos el script aquí
+      # print("\n¡Hecho! La guía de onda se ha dibujado en Lumerical.")
+      # print("No cierres esta terminal si quieres seguir viendo la ventana de Lumerical.")
+      # input("Presiona ENTER en esta terminal para finalizar la sesión y cerrar Lumerical...")

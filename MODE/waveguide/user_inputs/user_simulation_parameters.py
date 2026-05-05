@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #----------------------------------------------------------------------------
-# @author: Georgios Gcharalampous (gcharalampous)
-# version ='1.0'
-# ---------------------------------------------------------------------------
 """
 User-inputs are required.
 
@@ -88,12 +85,12 @@ clad_max_y = 5.0e-6
 
 
 # 3. Waveguide Dimensions
-wg_width = 0.48e-6
-wg_thickness = 0.22e-6
+wg_width = 1e-6
+wg_thickness = 2e-6
 
 
 # 3.1 Set slab thickness > 0 to enable a slab waveguide
-slab_thickness = 0.110e-6
+slab_thickness = 0.0e-6
 
 
 # 3.2 Bend Waveguide at the center of the simualation ?

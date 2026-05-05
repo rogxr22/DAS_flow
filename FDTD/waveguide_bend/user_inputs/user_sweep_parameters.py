@@ -17,10 +17,8 @@ The waveguide parameter to sweep bend_radius.
 
 
 
-
-
-bend_radius_start = 10.0e-6     # Choose the start waveguide width 'wg_width_start' you want to start sweeping
-bend_radius_stop = 150.0e-6      # Choose the stop waveguide width 'wg_width_stop' you want to finish sweeping
+bend_radius_start = 25.0e-6     # Choose the start waveguide width 'wg_width_start' you want to start sweeping
+bend_radius_stop = 120.0e-6      # Choose the stop waveguide width 'wg_width_stop' you want to finish sweeping
 bend_radius_step = 10e-6      # Choose the step of each sweep 'wg_step'
 
 
